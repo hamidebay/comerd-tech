@@ -1,0 +1,42 @@
+<html>
+<head>
+   
+  <script>
+  function clickHandler() {
+  console.log('geklickt');
+
+ 
+
+
+  function Test() {
+  var Eingabe  = document.getElementById('Vorname');
+  //var Ergebnis = Eingabe.value;
+  console.log("Vorname ist " + Eingabe.value);
+  Eingabe.value = 0;
+ }
+
+var los  = document.getElementById('send');
+los.addEventListener ('click', Test, true);
+}
+
+document.getElementById('interaktiv').addEventListener('click', clickHandler, false);
+    </script>
+</head>
+
+<body>
+  
+
+<form class="innen-raum" style="margin-left: 20%;">
+  <input type="text" id="Vorname" name="firstname" placeholder="Vorname..">
+  <button  id= "interaktiv" onclick="alert(document.querySelector('Vorname').value)"> Click me </button>
+
+  <button id="send">senden</button>
+  <p id="demo" style="background-color: white; color: black; width: 150px; height: 50px; "></p>
+</form>
+</body>
+
+
+
+
+
+</html>

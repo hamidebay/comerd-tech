@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="background">
+        <img src="../assets/images/Lift.png" style="z-index: -1">  
+        <div class="button-cont" style="display:flex; flex-direction: column; margin-top: -50%; margin-left: -30%"> 
+                <button  onClick="parent.location='home'">Home <i class="fa fa-sort-up" style="font-size:48px;color:black; margin-left: 5px; "></i></button>
+                <button onClick="parent.location='gallery'">Gallery <i class="fa fa-sort-down" style="font-size:48px;color:black;"></i></button>
+                
+            </div> 
+            <app-home></app-home>
+            <div class="button-cont" style="display:flex; flex-direction: column; margin-top: -14.5%; margin-left: 81%;"> 
+                    <button onClick="parent.location='ueber-uns'" style="margin-bottom: 30px;">Über Uns<i class="fa fa-sort-up" style="font-size:48px;color:black;"></i></button>
+                    <button onClick="parent.location='kontakt'" style="margin-top: 2%;">Kontakt <i class="fa fa-sort-down" style="font-size:48px;color:black;"></i></button>
+                   
+                    </div>
+      
+      
+      </div>
+
+    <div  style="z-index: 1; margin-top: 21%; margin-left: 2%; ">Copyright © Comerd-Tech GmbH - All rights reserved. </div>
+    <div  style="z-index: 1; margin-top: -1%; margin-left: 85%; ">Made by <a href="https://www.baycom.ch">baycom</a> </div>
+<router-outlet></router-outlet>

@@ -1,0 +1,153 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  border-top: solid 8px grey;
+  border-left: solid 8px grey;
+  border-right: solid 8px grey;
+  padding: 0px 0px 0 0;
+  z-index: -1;
+  width: 60%;
+  margin-top: -24.3%;
+  margin-left: 19.5%;
+  overflow: hidden;
+  float: left;
+  height: 680px;
+  overflow: hidden;
+
+
+
+}
+
+
+
+@media (max-width: 600px) {
+  .container {
+    height: 300px;
+    overflow: hidden;
+  }
+}
+
+.g {
+  background-image: url("aufzug2.PNG");
+  height: 1000px;
+
+  padding: 0px;
+  color: white;
+  font: 18px Arial;
+  margin: 0 0 0px 0px;
+  float: left;
+}
+
+
+
+
+
+.grid-50 {
+  display: flex;
+  flex-wrap: nowrap;
+  width: calc(50% - 0px);
+  height: 680vw;
+  padding: 0px 0px 0 0;
+  overflow: hidden;
+  margin-top: -10%;
+}
+
+
+#header {
+  width: 100%;
+  height: 150px;
+  margin-left: -10px;
+}
+
+#aside-left {
+  width: 15%;
+  height: 600px;
+
+  margin-left: -10px;
+  float: left;
+  margin-top: -8px;
+  z-index: -1;
+  overflow: hidden;
+
+}
+
+#aside-right {
+  width: 15%;
+  height: 30%;
+  margin-left: 65%;
+  margin-top: -500%;
+  float: left;
+  z-index: -1;
+
+
+}
+
+#home {
+
+  width: 100%;
+  height: 100%;
+
+
+}
+
+#footer {
+  width: 100%;
+  margin-left: -10px;
+
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  background-color: #c9c7c7;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  padding: 20px;
+  margin-left: 30%;
+  margin-top: 10%;
+
+}
+
+button:nth-child(2) {
+  margin-top: 2%;
+}
+
+.innen-raum {
+  width: 47%;
+  height: 50%;
+  margin-top: -40%;
+
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  text-align: left;
+  font-family: Arial, sans-serif;
+
+}
+
+#welcome-text {
+  margin-left: 9%;
+  margin-top: -55%;
+
+}
+
+.footer-coloumn {
+  width: 33%;
+  margin-top: 5%;
+}
+
+
